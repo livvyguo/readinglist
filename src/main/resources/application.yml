@@ -12,5 +12,11 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
 
 
+  thymeleaf:
+    cache: false
+
 mybatis:
   mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: org.livvy.reading.domain
+
+
