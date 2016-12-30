@@ -1,0 +1,12 @@
+server:
+  port: 9999
+debug: true
+
+spring:
+  datasource:
+    name: readinglist
+    url: jdbc:mysql://127.0.0.1:3306/readinglist
+    username: root
+    password: livvy
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
