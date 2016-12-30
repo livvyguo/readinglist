@@ -1,4 +1,4 @@
-package org.livvy;
+package org.livvy.reading.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
