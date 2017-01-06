@@ -5,7 +5,7 @@ debug: true
 spring:
   datasource:
     name: readinglist
-    url: jdbc:mysql://127.0.0.1:3306/readinglist
+    url: jdbc:mysql://127.0.0.1:3306/jewel
     username: root
     password: livvy
     type: com.alibaba.druid.pool.DruidDataSource
@@ -18,5 +18,3 @@ spring:
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: org.livvy.reading.domain
-
-
