@@ -16,6 +16,7 @@ import javax.sql.DataSource;
 
 /**
  * Created by livvy (livvyguo@gmail.com) on 2017/1/12.
+ * @author livvy
  */
 @Configuration
 public class Config {
@@ -44,7 +45,8 @@ public class Config {
     public SpringProcessEngineConfiguration initializeSpringProcessEngineConfiguration(
         DataSource dateSource,
         PlatformTransactionManager transactionManager) {
-        SpringProcessEngineConfiguration processEngineConfiguration = new SpringProcessEngineConfiguration();
+        SpringProcessEngineConfiguration processEngineConfiguration =
+            new SpringProcessEngineConfiguration();
         processEngineConfiguration.setDataSource(dateSource);
         processEngineConfiguration.setTransactionManager(transactionManager);
         processEngineConfiguration.setDatabaseSchemaUpdate("true");

@@ -9,7 +9,7 @@ class User {
     String password;
 
     @Override
-    public String toString() {
+    String toString() {
         return "User{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
